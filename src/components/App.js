@@ -48,6 +48,7 @@ class App extends React.Component {
                         <div className="ui message orange ">
                             <h1 className="ui header"> Latest Headlines App</h1>
                             <p>Select a news source and get the 10 latest headlines</p>
+                            <p>Built with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">ReactJS</a>, <a href="https://semantic-ui.com/" target="_blank" rel="noopener noreferrer">Semantic-UI</a>, and the <a href="https://newsapi.org/" target="_blank" rel="noopener noreferrer">News API</a></p>
                         </div>
                     </div>                 
                 </div>
