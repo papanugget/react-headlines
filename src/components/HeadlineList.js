@@ -1,5 +1,6 @@
 import React from 'react';
 import ArticleItem from './ArticleItem';
+import FloatingButton from './FloatingButton';
 
 const HeadlineList = (props) => {
     const articles = props.sourceHeadlines;
@@ -10,6 +11,7 @@ const HeadlineList = (props) => {
         <div className="row">
             <div className="ui two column stackable grid container">
                 {renderedList}
+                <FloatingButton/>
             </div>
         </div>
     )

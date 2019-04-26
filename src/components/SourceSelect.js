@@ -33,8 +33,8 @@ class SourceSelect extends React.Component {
         return (
             <div className="ui two column stackable grid">
                 <div className="column"> 
-                    <div className="ui segment">
-                    <h2 className="header">found {sources.length} sources</h2>
+                    <div className="ui segment" id="sources">
+                    <h2 className="header">Found {sources.length} sources</h2>
                         <form onSubmit={this.sourceSubmit}>
                             <select onChange={this.sourceClick} className="ui fluid dropdown">
                                 {sources}
