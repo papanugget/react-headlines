@@ -1,0 +1,1 @@
+{"version":3,"sources":["floatingbutton.css"],"names":[],"mappings":"AAAA,WACI,uBAAgB,CAAhB,eAAgB,CAChB,SAAU,CACV,UACJ","file":"main.2142cbaf.chunk.css","sourcesContent":["#button-up {\r\n    position: sticky;\r\n    right: 8px;\r\n    bottom: 8px;\r\n}"]}
