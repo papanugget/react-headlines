@@ -1,6 +1,7 @@
 import React from 'react';
 import SourceSelect from './SourceSelect.js';
 import HeadlineList from './HeadlineList';
+import '../css/style.css';
 import news from '../api/news';
 
 class App extends React.Component {
