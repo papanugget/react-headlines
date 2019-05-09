@@ -2,11 +2,12 @@ import React from 'react';
 import '../css/floatingbutton.css';
 
 class FloatingButton extends React.Component {
-    render() {
-        const smoothScroll =
-            document.querySelector('#sources').scrollIntoView({
-                behavior: 'smooth'
+    smoothScroll = () =>  { 
+        document.querySelector('#sources').scrollIntoView({
+            behavior: 'smooth'
         });
+    }
+    render() {
         document.querySelector('#sources').scrollIntoView({
             behavior: 'smooth'
         });
